@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>综合案例</title>
+</head>
+<body>
+    <form action="http://www.example.org" method="get">
+        <div>
+            <label>
+                用户真实姓名：<input type="text" name="username" size="20"/>
+            </label>
+                <br/>
+            <label>
+                请填写您的个人简历（150-200字）：
+                <br/>
+                <textarea name="resume" rows="15"close="60"></textarea>
+            </label>
+            <br/>
+            选择您的有意向的工作岗位：
+            <label>
+                <input type="checkbox" name="IT" value="software">软件开发
+            </label>
+            <label>
+                <input type="checkbox" name="IT" value="web">互联网开发
+            </label>
+            <label>
+                <input type="checkbox" name="IT" value="OS">操作系统开发
+            </label>
+            <label>
+                <input type="checkbox" name="IT" value=other">其他
+            </label>
+            <br/><br/>
+            <input type="submit" name="doit" value="提交个人简历"/>
+        </div>
+    </form>
+
+</body>
+</html>
